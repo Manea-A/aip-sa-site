@@ -1,5 +1,10 @@
 # aip-sa.com – AIP (AI Place) company website
 
+> **Keep this repository public.** It serves https://aip-sa.com through GitHub Pages. On a free
+> GitHub plan, Pages works only for public repositories: making this one private takes the
+> website offline. That happened from 2026-11-14 to 2026-11-16 ("There isn't a GitHub Pages site
+> here"). Every push to `main` republishes `public/` (workflow `.github/workflows/pages.yml`).
+
 Static rebuild of the old **saudiaip.com** site. It is based on the Wayback Machine capture from 12 Feb 2026 and now uses the domain **aip-sa.com**.
 It is plain HTML, CSS and a small amount of JavaScript. There is no build step, no tracker and no third-party request. Font Awesome is stored inside the site.
 
